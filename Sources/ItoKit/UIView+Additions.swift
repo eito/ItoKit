@@ -16,6 +16,7 @@ extension UIView {
     /// - Parameter parent: The view to embed the receiver in
     /// - Parameter insets: The optional inset values to pin the receiver to the parent view with.
     ///
+    @available(iOS 9.0, *)
     public func embed(in parent: UIView, insets: UIEdgeInsets = .zero) {
         
         if self.superview == nil {
