@@ -35,6 +35,7 @@
 		4E37F2F123B8171F00610C2B = {
 			isa = PBXGroup;
 			children = (
+				4E37F30623B817DC00610C2B /* Package.swift */,
 				4E37F2FD23B8171F00610C2B /* Sources */,
 				4E37F2FC23B8171F00610C2B /* Products */,
 			);
@@ -51,13 +52,20 @@
 		4E37F2FD23B8171F00610C2B /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				4E37F30D23B84FAD00610C2B /* ItoKit */,
+				4E37F2FF23B8171F00610C2B /* Info.plist */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		4E37F30D23B84FAD00610C2B /* ItoKit */ = {
+			isa = PBXGroup;
+			children = (
 				4E37F2FE23B8171F00610C2B /* ItoKit.h */,
 				4E37F30823B8189B00610C2B /* UIView+Additions.swift */,
 				4E37F30A23B8193300610C2B /* UIEdgeInsets+Additions.swift */,
-				4E37F2FF23B8171F00610C2B /* Info.plist */,
-				4E37F30623B817DC00610C2B /* Package.swift */,
 			);
-			path = Sources;
+			path = ItoKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
