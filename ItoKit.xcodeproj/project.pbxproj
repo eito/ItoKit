@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4E37F30023B8171F00610C2B /* ios_extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E37F2FE23B8171F00610C2B /* ios_extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E37F30023B8171F00610C2B /* ItoKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E37F2FE23B8171F00610C2B /* ItoKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4E37F30923B8189B00610C2B /* UIView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E37F30823B8189B00610C2B /* UIView+Additions.swift */; };
 		4E37F30B23B8193300610C2B /* UIEdgeInsets+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E37F30A23B8193300610C2B /* UIEdgeInsets+Additions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4E37F2FB23B8171F00610C2B /* ItoKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ItoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E37F2FE23B8171F00610C2B /* ios_extensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ios_extensions.h; sourceTree = "<group>"; };
+		4E37F2FE23B8171F00610C2B /* ItoKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItoKit.h; sourceTree = "<group>"; };
 		4E37F2FF23B8171F00610C2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E37F30623B817DC00610C2B /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = SOURCE_ROOT; };
 		4E37F30823B8189B00610C2B /* UIView+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Additions.swift"; sourceTree = "<group>"; };
@@ -51,13 +51,13 @@
 		4E37F2FD23B8171F00610C2B /* ItoKit */ = {
 			isa = PBXGroup;
 			children = (
-				4E37F2FE23B8171F00610C2B /* ios_extensions.h */,
+				4E37F2FE23B8171F00610C2B /* ItoKit.h */,
 				4E37F30823B8189B00610C2B /* UIView+Additions.swift */,
 				4E37F30A23B8193300610C2B /* UIEdgeInsets+Additions.swift */,
 				4E37F2FF23B8171F00610C2B /* Info.plist */,
 				4E37F30623B817DC00610C2B /* Package.swift */,
 			);
-			path = "ItoKit";
+			path = ItoKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -67,7 +67,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E37F30023B8171F00610C2B /* ios_extensions.h in Headers */,
+				4E37F30023B8171F00610C2B /* ItoKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 			dependencies = (
 			);
 			name = ItoKit;
-			productName = "ItoKit";
+			productName = ItoKit;
 			productReference = 4E37F2FB23B8171F00610C2B /* ItoKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
@@ -278,7 +278,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "ItoKit/Info.plist";
+				INFOPLIST_FILE = ItoKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -305,7 +305,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "ItoKit/Info.plist";
+				INFOPLIST_FILE = ItoKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
