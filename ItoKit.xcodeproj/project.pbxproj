@@ -35,7 +35,7 @@
 		4E37F2F123B8171F00610C2B = {
 			isa = PBXGroup;
 			children = (
-				4E37F2FD23B8171F00610C2B /* ItoKit */,
+				4E37F2FD23B8171F00610C2B /* Sources */,
 				4E37F2FC23B8171F00610C2B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,7 +48,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4E37F2FD23B8171F00610C2B /* ItoKit */ = {
+		4E37F2FD23B8171F00610C2B /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				4E37F2FE23B8171F00610C2B /* ItoKit.h */,
@@ -57,7 +57,7 @@
 				4E37F2FF23B8171F00610C2B /* Info.plist */,
 				4E37F30623B817DC00610C2B /* Package.swift */,
 			);
-			path = ItoKit;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,7 +278,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = ItoKit/Info.plist;
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -305,7 +305,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = ItoKit/Info.plist;
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
